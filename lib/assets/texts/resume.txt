@@ -1,0 +1,303 @@
+# Melissa Langhoff — Professional Overview
+
+---
+
+## Education
+
+### Turing School of Software & Design  
+**Back End Engineering Certificate**  
+Oct 2023 – Sep 2024  
+- 1500-hour intensive ACCET-accredited software development program  
+- Focus on Ruby on Rails, Test-Driven Development, and 9+ additional skills  
+
+### University of Wisconsin-Madison  
+**Bachelor’s Degree, Linguistics, Spanish**  
+2009 – 2016  
+- Activities: Linguistic Student Organization, Greater University Tutoring Services, Student S.P.I.L.L.
+
+---
+
+## Licenses & Certifications
+
+- **Scrum: The Basics** — LinkedIn, Issued Mar 2022  
+- **Teaching English as a Foreign Language (TEFL)** — TEFL International Barcelona, Issued Oct 2014  
+
+---
+
+## Volunteering
+
+### Jamestown Volunteer Fire Department  
+**Volunteer Staff**  
+Jan 2023 – Present (2 yrs 6 mos)
+
+### Greater University Tutoring Service  
+**Tutor**  
+Jan 2010 – Jan 2016 (6 yrs)  
+- Assisted international students with conversational English, reading, and writing  
+
+---
+
+## Professional Experience
+
+### Xcel Energy | Remote  
+**IT Project Manager**  
+Jul 2022 – Nov 2022  
+- Developed and implemented Agile project management systems, reducing project lifecycles by 1-2 weeks  
+- Improved delivery timelines by 24%, increasing overall team productivity  
+- Collaborated with leadership to streamline processes and communication  
+- Led training and adoption of new project management tools  
+
+### Malhecho Art | Remote  
+**Business, Sales, Marketing, eCommerce**  
+Mar 2022 – Jun 2023  
+- Managed website, marketing campaigns, and Spanish translation  
+- Enhanced online presence and increased customer engagement  
+- Coordinated marketing efforts and developed business strategies based on data  
+
+### Sling TV | Denver, CO  
+**Program Manager**  
+Feb 2022 – May 2022  
+- Optimized project workflows using Agile, Scrum, and Kanban methodologies  
+- Achieved 20% productivity increase  
+- Led teams of 10-15, facilitating cross-department collaboration  
+
+### Self-employed | Remote  
+**Private Tutor**  
+Aug 2020 – Oct 2023  
+- Delivered personalized instruction for ages 4-18, tailoring lessons to learning styles  
+- Created engaging environments through individual and group sessions  
+- Leveraged Spanish and teaching methodologies for bilingual education  
+
+### Crocs | Niwot, CO  
+**SAP Project Manager**  
+Sep 2019 – Apr 2020  
+- Managed migration of SAP environments to SAP HANA Enterprise Cloud  
+- Coordinated testing schedules, cutover plans, and risk management  
+- Led 45-member team and third-party vendors to ensure smooth transition  
+
+### Sovos | Atlanta, GA  
+**Project Manager, Implementation Consultant, Junior FI Consultant**  
+Apr 2017 – Jan 2019  
+- Managed SaaS SAP ERP projects for Fortune 500 clients  
+- Developed bilingual training materials, increasing client satisfaction by 17%  
+- Oversaw up to 25 projects and teams of 5-12  
+- Delivered customized solutions enhancing project success  
+
+### University of Wisconsin-Madison DesignLab | Madison, WI  
+**Assistant Coordinator**  
+Aug 2015 – May 2016  
+- Coordinated design lab activities, workshops, and events  
+- Provided administrative support and logistics management  
+
+### Brittania School of English | Barcelona Area, Spain  
+**English Teacher**  
+Nov 2014 – Nov 2015  
+- Developed and delivered customized English lessons to non-native speakers  
+- Facilitated cultural exchange and immersive language learning  
+- Assessed student progress and adapted instruction accordingly  
+
+### UW-Madison Helen C White College Library | Madison, WI  
+**Supervisor**  
+Mar 2011 – Dec 2016  
+- Supervised library operations and staff  
+- Led training and development programs  
+- Improved service quality and operational efficiency  
+
+---
+
+## Projects
+
+### Battleship  
+- Terminal-based Ruby implementation of the classic Battleship game  
+- Features user-friendly ship placement, turn-taking guessing, and game logic handling  
+- Supports two-player gameplay  
+**Tech:** Ruby  
+[GitHub Repository](#)
+
+### Market Money  
+- API for accessing local farmers' markets and vendors  
+- Integrates market data including vendors, products, and pricing  
+- Implements search and filtering for improved user experience  
+**Tech:** Ruby on Rails, Postman  
+[GitHub Repository](#)
+
+### Personal Portfolio & Website  
+- Backend Developer portfolio showcasing skills and projects  
+- Built with Ruby on Rails and Bootstrap  
+- Custom domain: [mel-langhoff.com](https://mel-langhoff.com)  
+- Responsive design optimized for all devices  
+- Interactive navigation and dynamic content sections  
+**Tech:** Ruby on Rails, Bootstrap  
+[GitHub Repository](#) | [Demo Link](#)
+
+---
+
+## About Me
+
+From my hometown of Milwaukee, WI to a picturesque mountain town in Colorado, my journey with technology has been a blend of diverse experiences and a profound interest in continual learning. I'm Mel Langhoff — a backend web developer, project manager, linguist, and life-long student.
+
+My career began in technology project management and IT consulting, where I mastered Agile methodologies, cloud migration, and SAP systems through roles at Xcel Energy, Sling TV, Crocs, and Sovos Compliance. Each project presented unique challenges and opportunities to innovate.
+
+My passion for languages and teaching has been a constant thread. Fluent in Spanish, my experience teaching English in Barcelona enriched my communication and empathy skills. These lessons — patience, clarity, and a love for learning — fuel my approach to coding and collaboration.
+
+Transitioning to backend development at Turing School of Software & Design was natural. I've harnessed my technical skills and project management expertise to build robust, user-centric applications that bridge technology and user needs.
+
+Outside of work, I’m an avid cyclist and skateboarder, a food and cooking enthusiast, and a lover of literature and languages. These hobbies inspire creativity and perseverance — qualities I bring into every project. My journey exemplifies the power of diverse experiences and lifelong growth, and I remain committed to leveraging my skills to make meaningful impact in tech and beyond.
+
+---
+
+## Skills
+
+- Ruby  
+- Ruby on Rails  
+- ActiveRecord  
+- RSpec  
+- Test-Driven Development  
+- SQL  
+- HTML  
+- Cascading Style Sheets (CSS)  
+- JavaScript (basic familiarity)  
+- Git  
+- Salesforce.com  
+- ServiceNow  
+- JIRA  
+- Confluence  
+- Smartsheet  
+- Microsoft Office (Word, Excel, PowerPoint)  
+- Google Docs  
+- iMovie  
+- Spanish (fluent)  
+- Project Management  
+- Agile Project Management  
+- Scrum  
+- Kanban  
+- Waterfall Project Management  
+- Software Development Life Cycle (SDLC)  
+- Object-Oriented Programming (OOP)  
+- Vendor Management  
+- SAP FI  
+- XML Schema Definition (XSD)  
+- SaaS Development  
+- Change Management  
+- Stakeholder Management  
+- User Stories  
+- Business Process Improvement  
+- Leadership  
+- Communication  
+- Teamwork  
+- Public Speaking  
+- Employee Training  
+- Training  
+- Teaching  
+- Research  
+- Customer Service  
+- Social Media
+
+From my hometown of Milwaukee, WI to a picturesque mountain town in Colorado, my journey with technology has been a blend of diverse experiences and profound interest in continually learning. I'm Mel Langhoff, a backend web developer, project manager, linguist, and life-long student.
+
+Growing up in a world full of flavors and cultures, I found my path through a myriad of professions, each one shaping my approach to problem-solving and creativity. My career began in the realm of technology, where I dove into project management and IT consulting. My roles at Xcel Energy, Sling TV, Crocs, and Sovos Compliance allowed me to master Agile methodologies, cloud migration, and SAP systems. Each project was a puzzle, each challenge an opportunity to innovate and excel.
+
+My passion for languages and teaching has been a constant thread through my life. Fluent in Spanish, I've not only navigated the complexities of international projects but also immersed myself in cultural exchanges. My time as an English teacher in Barcelona enriched my understanding of communication and empathy. The lessons learned from teaching -- patience, clarity, and a love for learning -- fuel my approach to coding and collaboration.
+
+The transition to backend development was a natural evolution. At Turing School of Software & Design, I've harnessed my technical skills and project management expertise to build robust, user-centric applications. My projects showcase my commitment to creating functional, impactful solutions that bridge the gap between technology and user needs.
+
+Outside of my professional life, I'm an avid cyclist and skateboarder, a food and cooking enthusiast, and a lover of literature and langauges. No matter what I am doing, I am always learning -- whether it's exploring new recipes, cycling down a country road, skating at the park, diving into the intricacies of linguistics, or losing myself in a good book, these hobbies keep me grounded and inspired. They remind me that creativity and problem-solving extend beyond the digital world and into every aspect of life. Through dedication to my hobbies, I have been able to have the perserverence to improve my abilities and strengthen myself by setting new goals and working to achieve new things.
+
+My journey is a testament to the power of diverse experiences and the pursuit of continuous growth. Each chapter, from managing complex IT projects to crafting code, has equipped me with a unique perspective and a passion for innovation. As I continue to evolve in the tech world, I remain committed to leveraging my skills and experiences to make a meaningful impact.
+
+
+
+Life-long learner, passionate teacher, and data-driven software developer committed to creative thinking and outside-the-box solutions. Fluent in Spanish, drawing from a background in IT project management, and with a deep appreciation for cultural exchange, I use my diverse experiences to create impactful and resonant results.
+
+https://github.com/mel-langhoff/battleship
+https://github.com/mel-langhoff/market_money
+https://github.com/mel-langhoff/resume
+https://www.mel-langhoff.com
+
+Xcel Energy | Remote, July 2022 - November 2022
+
+IT Project Manager
+
+In my role as an IT Project Manager at Xcel Energy, I developed and implemented Agile project management systems. My work significantly improved project efficiency and reduced delivery timelines.
+
+Implemented Agile project management systems that reduced project lifecycles by 1-2 weeks. Enhanced delivery timelines by 24%, which increased overall team productivity and project efficiency.
+Collaborated closely with the director and a small team to streamline processes. Ensured effective communication and coordination among team members, facilitating smoother project execution.
+Led the introduction of new project management tools and methodologies. Trained team members on these tools, ensuring successful adoption and integration into existing workflows.
+Malhecho Art | Remote, March 2022 - June 2023
+
+Business, Sales, Marketing, eCommerce
+
+Managed business operations for J.Malhecho Art, focusing on website management, strategic marketing, and Spanish translation. My role was key in enhancing the company's online presence and driving business growth through effective marketing strategies.
+
+Enhanced the company's online presence and market visibility through targeted marketing campaigns and strategic networking. This led to increased customer engagement, higher traffic to the website, and improved sales.
+Utilized my project management and social media skills to drive business growth. Coordinated marketing efforts, managed digital content, and implemented strategies that effectively promoted the brand and its offerings.
+Developed and executed business strategies to optimize performance. Analyzed data to inform decision-making, ensuring that marketing and operational strategies were aligned with business goals.
+Sling TV | Denver, CO, February 2022 - May 2022
+
+Program Manager
+
+As a Program Manager at Sling TV, I optimized project processes using Agile, Scrum, and Kanban methodologies. My role involved improving productivity and project outcomes for Dish Media and Sling TV.
+
+Implemented Agile, Scrum, and Kanban methodologies to optimize project processes. Achieved a 20% increase in productivity and significantly improved project outcomes through effective strategy implementation.
+Led teams of 10-15 members to execute project strategies aligned with organizational goals. Ensured that team efforts were coordinated and focused on achieving project objectives.
+Facilitated cross-functional collaboration to enhance communication and cooperation between departments. This approach improved overall project effectiveness and team dynamics.
+Self-employed | Remote, August 2020 - October 2023
+
+Private Tutor
+
+As a self-employed private tutor, I provided personalized instruction to students aged 4-18. My focus was on adapting teaching methods to meet individual learning styles and academic goals, ensuring effective and engaging learning experiences.
+
+Delivered personalized instruction for students aged 4-18, tailoring lessons to their unique learning styles and academic goals. This approach ensured that each student received targeted support, promoting their academic growth and confidence.
+Created engaging learning environments through both individual and group sessions. Utilized creative teaching methods and interactive activities to maintain student interest and foster a positive learning atmosphere.
+Leveraged my skills in Spanish and various teaching methodologies to enhance educational outcomes. Provided bilingual support and culturally relevant materials, enriching the learning experience for students from diverse backgrounds.
+Crocs | Niwot, CO, September 2019 - April 2020
+
+SAP Project Manager
+
+Managed the migration of SAP environments to SAP HANA Enterprise Cloud for Crocs. Ensured smooth transitions and effective project management for a successful cloud migration.
+
+Coordinated testing schedules and cutover plans to ensure on-time project delivery. Managed potential risks and minimized disruptions during the migration process.
+Led a 45-member team and coordinated with third-party vendors for seamless cloud migration. Maintained effective communication and collaboration to achieve project goals.
+Developed detailed project plans and monitored progress. Addressed issues promptly to keep the project on track and within the defined scope and timeline.
+Sovos | Atlanta, GA, April 2017 - January 2019
+
+Project Manager, Implementation Consultant, & Junior FI Consultant
+
+Integrated SaaS SAP ERP solutions for Fortune 500 companies, focusing on eInvoicing, eAccounting, and tax compliance. My role involved managing multiple projects and ensuring successful client engagements.
+
+Developed bilingual training materials and led training sessions, boosting client satisfaction ratings by 17%. Enhanced client understanding of SAP solutions through effective knowledge transfer.
+Managed up to 25 projects simultaneously, overseeing teams of 5-12 members. Ensured that projects were delivered on time and met client requirements.
+Collaborated closely with clients to understand their needs and deliver customized solutions. Enhanced overall project success by tailoring solutions to client specifications.
+University of Wisconsin-Madison DesignLab | Madison, WI, August 2015 - May 2016
+
+Assistant Coordinator
+
+Supported coordination of design lab activities and student projects at the University of Wisconsin-Madison DesignLab. Facilitated workshops and events to enhance the learning experience.
+
+Assisted in organizing and executing workshops and events, which contributed to a more engaging learning environment for students. Coordinated logistics and provided support to ensure successful events.
+Provided administrative support, managing communication with stakeholders and ensuring smooth operations. Handled scheduling, coordination, and follow-up tasks to support lab activities.
+Collaborated with team members to develop and implement new initiatives. Contributed to continuous improvement efforts and supported the lab's mission of fostering innovation and creativity.
+Brittania School of English | Barcelona Area, Spain, November 2014 - November 2015
+
+English Teacher
+
+Taught English to non-native speakers at Brittania School of English in Barcelona. Focused on language acquisition and communication skills, fostering a dynamic and immersive learning environment.
+
+Developed and implemented customized lesson plans tailored to student needs. Enhanced students' language skills and confidence through engaging and effective teaching methods.
+Facilitated cultural exchange and language immersion experiences, enriching students' understanding of English and diverse cultural contexts. Encouraged active participation and interactive learning.
+Assessed student progress and provided constructive feedback to support their continuous improvement. Monitored academic development and adjusted teaching strategies to meet evolving needs.
+UW-Madison Helen C White College Library | Madison, WI, March 2011 - December 2016
+
+Supervisor
+
+Supervised operations and staff at the UW-Madison Helen C White College Library, ensuring efficient service delivery and high levels of customer satisfaction.
+
+Led team training and development initiatives, focusing on improving service quality and staff performance. Implemented new training programs to enhance staff skills and efficiency.
+Managed daily library operations, including scheduling and customer service. Ensured that library services ran smoothly and met the needs of students and faculty.
+Implemented new policies and procedures to improve operational efficiency. Developed strategies to enhance the overall user experience and streamline library processes.
+
+
+
+
+
+

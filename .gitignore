@@ -1,0 +1,42 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore all logfiles and temp files.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore database files
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore credentials and secrets files
+/config/credentials.yml.enc
+/config/master.key
+/config/secret.keybase
+.env
+.env.* 
+
+# Ignore Byebug command history file
+.byebug_history
+
+# Ignore coverage directory
+/coverage
+
+# Ignore node modules (if using JS)
+/node_modules
+
+# Ignore Yarn integrity file
+.yarn-integrity
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore editor swap files
+*.swp
+*.swo
+
+# Ignore test and development dumps, if any
+*.rbc
+capybara-*.html
