@@ -297,7 +297,153 @@ Managed daily library operations, including scheduling and customer service. Ens
 Implemented new policies and procedures to improve operational efficiency. Developed strategies to enhance the overall user experience and streamline library processes.
 
 
+jobs:
+  - title: "Private Tutor"
+    company: "Self-employed"
+    location: "Remote"
+    start_date: 2020-08-01
+    end_date: 2023-10-01
+    description: "As a self-employed private tutor, I provided personalized instruction to students aged 4-18. My focus was on adapting teaching methods to meet individual learning styles and academic goals, ensuring effective and engaging learning experiences."
+    responsibilities:
+      - "Delivered personalized instruction for students aged 4-18, tailoring lessons to their unique learning styles and academic goals. This approach ensured that each student received targeted support, promoting their academic growth and confidence."
+      - "Created engaging learning environments through both individual and group sessions. Utilized creative teaching methods and interactive activities to maintain student interest and foster a positive learning atmosphere."
+      - "Leveraged my skills in Spanish and various teaching methodologies to enhance educational outcomes. Provided bilingual support and culturally relevant materials, enriching the learning experience for students from diverse backgrounds."
 
+  - title: "Business, Sales, Marketing, eCommerce"
+    company: "Malhecho Art"
+    location: "Remote"
+    start_date: 2022-03-01
+    end_date: 2023-06-01
+    description: "Managed business operations for J.Malhecho Art, focusing on website management, strategic marketing, and Spanish translation. My role was key in enhancing the company's online presence and driving business growth through effective marketing strategies."
+    responsibilities:
+      - "Enhanced the company's online presence and market visibility through targeted marketing campaigns and strategic networking. This led to increased customer engagement, higher traffic to the website, and improved sales."
+      - "Utilized my project management and social media skills to drive business growth. Coordinated marketing efforts, managed digital content, and implemented strategies that effectively promoted the brand and its offerings."
+      - "Developed and executed business strategies to optimize performance. Analyzed data to inform decision-making, ensuring that marketing and operational strategies were aligned with business goals."
+
+  - title: "IT Project Manager"
+    company: "Xcel Energy"
+    location: "Remote"
+    start_date: 2022-07-01
+    end_date: 2022-11-01
+    description: "In my role as an IT Project Manager at Xcel Energy, I developed and implemented Agile project management systems. My work significantly improved project efficiency and reduced delivery timelines."
+    responsibilities:
+      - "Implemented Agile project management systems that reduced project lifecycles by 1-2 weeks. Enhanced delivery timelines by 24%, which increased overall team productivity and project efficiency."
+      - "Collaborated closely with the director and a small team to streamline processes. Ensured effective communication and coordination among team members, facilitating smoother project execution."
+      - "Led the introduction of new project management tools and methodologies. Trained team members on these tools, ensuring successful adoption and integration into existing workflows."
+
+  - title: "Program Manager"
+    company: "Sling TV"
+    location: "Denver, CO"
+    start_date: 2022-02-01
+    end_date: 2022-05-01
+    description: "As a Program Manager at Sling TV, I optimized project processes using Agile, Scrum, and Kanban methodologies. My role involved improving productivity and project outcomes for Dish Media and Sling TV."
+    responsibilities:
+      - "Implemented Agile, Scrum, and Kanban methodologies to optimize project processes. Achieved a 20% increase in productivity and significantly improved project outcomes through effective strategy implementation."
+      - "Led teams of 10-15 members to execute project strategies aligned with organizational goals. Ensured that team efforts were coordinated and focused on achieving project objectives."
+      - "Facilitated cross-functional collaboration to enhance communication and cooperation between departments. This approach improved overall project effectiveness and team dynamics."
+
+  - title: "SAP Project Manager"
+    company: "Crocs"
+    location: "Niwot, CO"
+    start_date: 2019-09-01
+    end_date: 2020-04-01
+    description: "Managed the migration of SAP environments to SAP HANA Enterprise Cloud for Crocs. Ensured smooth transitions and effective project management for a successful cloud migration."
+    responsibilities:
+      - "Coordinated testing schedules and cutover plans to ensure on-time project delivery. Managed potential risks and minimized disruptions during the migration process."
+      - "Led a 45-member team and coordinated with third-party vendors for seamless cloud migration. Maintained effective communication and collaboration to achieve project goals."
+      - "Developed detailed project plans and monitored progress. Addressed issues promptly to keep the project on track and within the defined scope and timeline."
+
+  - title: "Project Manager, Implementation Consultant, & Junior FI Consultant"
+    company: "Sovos"
+    location: "Atlanta, GA"
+    start_date: 2017-04-01
+    end_date: 2019-01-01
+    description: "Integrated SaaS SAP ERP solutions for Fortune 500 companies, focusing on eInvoicing, eAccounting, and tax compliance. My role involved managing multiple projects and ensuring successful client engagements."
+    responsibilities:
+      - "Developed bilingual training materials and led training sessions, boosting client satisfaction ratings by 17%. Enhanced client understanding of SAP solutions through effective knowledge transfer."
+      - "Managed up to 25 projects simultaneously, overseeing teams of 5-12 members. Ensured that projects were delivered on time and met client requirements."
+      - "Collaborated closely with clients to understand their needs and deliver customized solutions. Enhanced overall project success by tailoring solutions to client specifications."
+
+  - title: "Supervisor"
+    company: "UW-Madison Helen C White College Library"
+    location: "Madison, WI"
+    start_date: 2011-03-01
+    end_date: 2016-12-01
+    description: "Supervised operations and staff at the UW-Madison Helen C White College Library, ensuring efficient service delivery and high levels of customer satisfaction."
+    responsibilities:
+      - "Led team training and development initiatives, focusing on improving service quality and staff performance. Implemented new training programs to enhance staff skills and efficiency."
+      - "Managed daily library operations, including scheduling and customer service. Ensured that library services ran smoothly and met the needs of students and faculty."
+      - "Implemented new policies and procedures to improve operational efficiency. Developed strategies to enhance the overall user experience and streamline library processes."
+
+  - title: "Assistant Coordinator"
+    company: "University of Wisconsin-Madison DesignLab"
+    location: "Madison, WI"
+    start_date: 2015-08-01
+    end_date: 2016-05-01
+    description: "Supported coordination of design lab activities and student projects at the University of Wisconsin-Madison DesignLab. Facilitated workshops and events to enhance the learning experience."
+    responsibilities:
+      - "Assisted in organizing and executing workshops and events, which contributed to a more engaging learning environment for students. Coordinated logistics and provided support to ensure successful events."
+      - "Provided administrative support, managing communication with stakeholders and ensuring smooth operations. Handled scheduling, coordination, and follow-up tasks to support lab activities."
+      - "Collaborated with team members to develop and implement new initiatives. Contributed to continuous improvement efforts and supported the lab's mission of fostering innovation and creativity."
+
+  - title: "English Teacher"
+    company: "Brittania School of English"
+    location: "Barcelona Area, Spain"
+    start_date: 2014-11-01
+    end_date: 2015-11-01
+    description: "Taught English to non-native speakers at Brittania School of English in Barcelona. Focused on language acquisition and communication skills, fostering a dynamic and immersive learning environment."
+    responsibilities:
+      - "Developed and implemented customized lesson plans tailored to student needs. Enhanced students' language skills and confidence through engaging and effective teaching methods."
+      - "Facilitated cultural exchange and language immersion experiences, enriching students' understanding of English and diverse cultural contexts. Encouraged active participation and interactive learning."
+      - "Assessed student progress and provided constructive feedback to support their continuous improvement. Monitored academic development and adjusted teaching strategies to meet evolving needs."
+
+# The '>' character allows for multi-line strings in YAML, so you can break your description into multiple lines without needing to use \n for line breaks.
+# The YAML parser will combine the lines into a single string.
+
+- title: "Market Money"
+  description: >
+    A comprehensive API designed to facilitate access to local farmers' markets and vendors.
+    This project involved:
+
+    - Integrating with various market data sources.
+    - Handling data related to vendors, products, and pricing.
+    - Implementing search and filtering capabilities to improve user experience.
+    
+    The API provides detailed information about market schedules, vendor locations,
+    and product availability, making it easier for users to find local produce and goods.
+  git_repo: "https://github.com/mel-langhoff/market_money"
+  tech: "Ruby on Rails, Postman"
+  project_type: "Rails"
+
+- title: "Battleship"
+  description: >
+    A terminal-based Ruby implementation of the classic Battleship game. Developed with a partner,
+    this project required:
+
+    - Careful coordination and clear communication to handle the complexity of the game's logic.
+    - Developing a user-friendly interface for placing ships and taking turns guessing.
+    - Ensuring the game logic correctly handles wins, losses, and invalid moves.
+
+    The game allows two players to place ships and take turns guessing the locations of their
+    opponent's ships until one player sinks all the ships.
+  git_repo: "https://github.com/mel-langhoff/battleship"
+  tech: "Ruby"
+  project_type: "Ruby"
+
+- title: "Personal Portfolio & Website"
+  description: >
+    A comprehensive showcase of my skills and projects as a Backend Developer. This portfolio is built with Ruby on Rails, featuring a clean and intuitive design that highlights my professional achievements and personal projects. Key features include:
+    
+    - Custom domain, at [mel-langhoff.com](www.mel-langhoff.com), reflecting my personal brand and providing a professional online presence.
+    - Project highlights detailing entries for each project, including objectives, technologies used, and links to repositories or live demos.
+    - Responsive design that's optimized for various devices to ensure a seamless user experience across desktop, tablet, and mobile.
+    - Interactive components are integrated navigation and dynamic content sections to engage visitors and present information effectively.
+    
+    This portfolio serves as both a showcase of my technical skills and a platform for demonstrating my approach to software development. It’s a testament to my ability to create functional, aesthetically pleasing web applications that deliver a superior user experience.
+  git_repo: "https://github.com/mel-langhoff/resume"
+  tech: "Ruby on Rails, Boostrap"
+  project_type: "Rails"
+  demo_link: "www.mel-langhoff.com"
 
 
 

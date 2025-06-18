@@ -1,4 +1,4 @@
-class Project
+class ProjectEntry
   attr_reader :name, :description, :technologies, :github_url, :demo_url
 
   def initialize(json)

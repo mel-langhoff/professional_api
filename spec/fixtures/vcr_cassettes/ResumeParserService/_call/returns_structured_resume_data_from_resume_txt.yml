@@ -1,0 +1,350 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.openai.com/v1/chat/completions
+    body:
+      encoding: UTF-8
+      string: '{"model":"gpt-3.5-turbo","messages":[{"role":"system","content":"You''re
+        a parser that returns structured JSON for a Rails resume database."},{"role":"user","content":"Parse
+        the following resume text into JSON to populate these tables:\n  - experiences:
+        as an array of hashes with all expected fields\n  - skills: as a flat array
+        of strings (skill names)\n  - experience_skills: that link skills to experience
+        titles\n  - projects: with detailed info\n  - project_skills: similarly linking
+        skills to projects\n\nResume text:\n# Melissa Langhoff — Professional Overview\n\n---\n\n##
+        Education\n\n### Turing School of Software \u0026 Design  \n**Back End Engineering
+        Certificate**  \nOct 2023 – Sep 2024  \n- 1500-hour intensive ACCET-accredited
+        software development program  \n- Focus on Ruby on Rails, Test-Driven Development,
+        and 9+ additional skills  \n\n### University of Wisconsin-Madison  \n**Bachelor’s
+        Degree, Linguistics, Spanish**  \n2009 – 2016  \n- Activities: Linguistic
+        Student Organization, Greater University Tutoring Services, Student S.P.I.L.L.\n\n---\n\n##
+        Licenses \u0026 Certifications\n\n- **Scrum: The Basics** — LinkedIn, Issued
+        Mar 2022  \n- **Teaching English as a Foreign Language (TEFL)** — TEFL International
+        Barcelona, Issued Oct 2014  \n\n---\n\n## Volunteering\n\n### Jamestown Volunteer
+        Fire Department  \n**Volunteer Staff**  \nJan 2023 – Present (2 yrs 6 mos)\n\n###
+        Greater University Tutoring Service  \n**Tutor**  \nJan 2010 – Jan 2016 (6
+        yrs)  \n- Assisted international students with conversational English, reading,
+        and writing  \n\n---\n\n## Professional Experience\n\n### Xcel Energy | Remote  \n**IT
+        Project Manager**  \nJul 2022 – Nov 2022  \n- Developed and implemented Agile
+        project management systems, reducing project lifecycles by 1-2 weeks  \n-
+        Improved delivery timelines by 24%, increasing overall team productivity  \n-
+        Collaborated with leadership to streamline processes and communication  \n-
+        Led training and adoption of new project management tools  \n\n### Malhecho
+        Art | Remote  \n**Business, Sales, Marketing, eCommerce**  \nMar 2022 – Jun
+        2023  \n- Managed website, marketing campaigns, and Spanish translation  \n-
+        Enhanced online presence and increased customer engagement  \n- Coordinated
+        marketing efforts and developed business strategies based on data  \n\n###
+        Sling TV | Denver, CO  \n**Program Manager**  \nFeb 2022 – May 2022  \n- Optimized
+        project workflows using Agile, Scrum, and Kanban methodologies  \n- Achieved
+        20% productivity increase  \n- Led teams of 10-15, facilitating cross-department
+        collaboration  \n\n### Self-employed | Remote  \n**Private Tutor**  \nAug
+        2020 – Oct 2023  \n- Delivered personalized instruction for ages 4-18, tailoring
+        lessons to learning styles  \n- Created engaging environments through individual
+        and group sessions  \n- Leveraged Spanish and teaching methodologies for bilingual
+        education  \n\n### Crocs | Niwot, CO  \n**SAP Project Manager**  \nSep 2019
+        – Apr 2020  \n- Managed migration of SAP environments to SAP HANA Enterprise
+        Cloud  \n- Coordinated testing schedules, cutover plans, and risk management  \n-
+        Led 45-member team and third-party vendors to ensure smooth transition  \n\n###
+        Sovos | Atlanta, GA  \n**Project Manager, Implementation Consultant, Junior
+        FI Consultant**  \nApr 2017 – Jan 2019  \n- Managed SaaS SAP ERP projects
+        for Fortune 500 clients  \n- Developed bilingual training materials, increasing
+        client satisfaction by 17%  \n- Oversaw up to 25 projects and teams of 5-12  \n-
+        Delivered customized solutions enhancing project success  \n\n### University
+        of Wisconsin-Madison DesignLab | Madison, WI  \n**Assistant Coordinator**  \nAug
+        2015 – May 2016  \n- Coordinated design lab activities, workshops, and events  \n-
+        Provided administrative support and logistics management  \n\n### Brittania
+        School of English | Barcelona Area, Spain  \n**English Teacher**  \nNov 2014
+        – Nov 2015  \n- Developed and delivered customized English lessons to non-native
+        speakers  \n- Facilitated cultural exchange and immersive language learning  \n-
+        Assessed student progress and adapted instruction accordingly  \n\n### UW-Madison
+        Helen C White College Library | Madison, WI  \n**Supervisor**  \nMar 2011
+        – Dec 2016  \n- Supervised library operations and staff  \n- Led training
+        and development programs  \n- Improved service quality and operational efficiency  \n\n---\n\n##
+        Projects\n\n### Battleship  \n- Terminal-based Ruby implementation of the
+        classic Battleship game  \n- Features user-friendly ship placement, turn-taking
+        guessing, and game logic handling  \n- Supports two-player gameplay  \n**Tech:**
+        Ruby  \n[GitHub Repository](#)\n\n### Market Money  \n- API for accessing
+        local farmers'' markets and vendors  \n- Integrates market data including
+        vendors, products, and pricing  \n- Implements search and filtering for improved
+        user experience  \n**Tech:** Ruby on Rails, Postman  \n[GitHub Repository](#)\n\n###
+        Personal Portfolio \u0026 Website  \n- Backend Developer portfolio showcasing
+        skills and projects  \n- Built with Ruby on Rails and Bootstrap  \n- Custom
+        domain: [mel-langhoff.com](https://mel-langhoff.com)  \n- Responsive design
+        optimized for all devices  \n- Interactive navigation and dynamic content
+        sections  \n**Tech:** Ruby on Rails, Bootstrap  \n[GitHub Repository](#) |
+        [Demo Link](#)\n\n---\n\n## About Me\n\nFrom my hometown of Milwaukee, WI
+        to a picturesque mountain town in Colorado, my journey with technology has
+        been a blend of diverse experiences and a profound interest in continual learning.
+        I''m Mel Langhoff — a backend web developer, project manager, linguist, and
+        life-long student.\n\nMy career began in technology project management and
+        IT consulting, where I mastered Agile methodologies, cloud migration, and
+        SAP systems through roles at Xcel Energy, Sling TV, Crocs, and Sovos Compliance.
+        Each project presented unique challenges and opportunities to innovate.\n\nMy
+        passion for languages and teaching has been a constant thread. Fluent in Spanish,
+        my experience teaching English in Barcelona enriched my communication and
+        empathy skills. These lessons — patience, clarity, and a love for learning
+        — fuel my approach to coding and collaboration.\n\nTransitioning to backend
+        development at Turing School of Software \u0026 Design was natural. I''ve
+        harnessed my technical skills and project management expertise to build robust,
+        user-centric applications that bridge technology and user needs.\n\nOutside
+        of work, I’m an avid cyclist and skateboarder, a food and cooking enthusiast,
+        and a lover of literature and languages. These hobbies inspire creativity
+        and perseverance — qualities I bring into every project. My journey exemplifies
+        the power of diverse experiences and lifelong growth, and I remain committed
+        to leveraging my skills to make meaningful impact in tech and beyond.\n\n---\n\n##
+        Skills\n\n- Ruby  \n- Ruby on Rails  \n- ActiveRecord  \n- RSpec  \n- Test-Driven
+        Development  \n- SQL  \n- HTML  \n- Cascading Style Sheets (CSS)  \n- JavaScript
+        (basic familiarity)  \n- Git  \n- Salesforce.com  \n- ServiceNow  \n- JIRA  \n-
+        Confluence  \n- Smartsheet  \n- Microsoft Office (Word, Excel, PowerPoint)  \n-
+        Google Docs  \n- iMovie  \n- Spanish (fluent)  \n- Project Management  \n-
+        Agile Project Management  \n- Scrum  \n- Kanban  \n- Waterfall Project Management  \n-
+        Software Development Life Cycle (SDLC)  \n- Object-Oriented Programming (OOP)  \n-
+        Vendor Management  \n- SAP FI  \n- XML Schema Definition (XSD)  \n- SaaS Development  \n-
+        Change Management  \n- Stakeholder Management  \n- User Stories  \n- Business
+        Process Improvement  \n- Leadership  \n- Communication  \n- Teamwork  \n-
+        Public Speaking  \n- Employee Training  \n- Training  \n- Teaching  \n- Research  \n-
+        Customer Service  \n- Social Media\n\nFrom my hometown of Milwaukee, WI to
+        a picturesque mountain town in Colorado, my journey with technology has been
+        a blend of diverse experiences and profound interest in continually learning.
+        I''m Mel Langhoff, a backend web developer, project manager, linguist, and
+        life-long student.\n\nGrowing up in a world full of flavors and cultures,
+        I found my path through a myriad of professions, each one shaping my approach
+        to problem-solving and creativity. My career began in the realm of technology,
+        where I dove into project management and IT consulting. My roles at Xcel Energy,
+        Sling TV, Crocs, and Sovos Compliance allowed me to master Agile methodologies,
+        cloud migration, and SAP systems. Each project was a puzzle, each challenge
+        an opportunity to innovate and excel.\n\nMy passion for languages and teaching
+        has been a constant thread through my life. Fluent in Spanish, I''ve not only
+        navigated the complexities of international projects but also immersed myself
+        in cultural exchanges. My time as an English teacher in Barcelona enriched
+        my understanding of communication and empathy. The lessons learned from teaching
+        -- patience, clarity, and a love for learning -- fuel my approach to coding
+        and collaboration.\n\nThe transition to backend development was a natural
+        evolution. At Turing School of Software \u0026 Design, I''ve harnessed my
+        technical skills and project management expertise to build robust, user-centric
+        applications. My projects showcase my commitment to creating functional, impactful
+        solutions that bridge the gap between technology and user needs.\n\nOutside
+        of my professional life, I''m an avid cyclist and skateboarder, a food and
+        cooking enthusiast, and a lover of literature and langauges. No matter what
+        I am doing, I am always learning -- whether it''s exploring new recipes, cycling
+        down a country road, skating at the park, diving into the intricacies of linguistics,
+        or losing myself in a good book, these hobbies keep me grounded and inspired.
+        They remind me that creativity and problem-solving extend beyond the digital
+        world and into every aspect of life. Through dedication to my hobbies, I have
+        been able to have the perserverence to improve my abilities and strengthen
+        myself by setting new goals and working to achieve new things.\n\nMy journey
+        is a testament to the power of diverse experiences and the pursuit of continuous
+        growth. Each chapter, from managing complex IT projects to crafting code,
+        has equipped me with a unique perspective and a passion for innovation. As
+        I continue to evolve in the tech world, I remain committed to leveraging my
+        skills and experiences to make a meaningful impact.\n\n\n\nLife-long learner,
+        passionate teacher, and data-driven software developer committed to creative
+        thinking and outside-the-box solutions. Fluent in Spanish, drawing from a
+        background in IT project management, and with a deep appreciation for cultural
+        exchange, I use my diverse experiences to create impactful and resonant results.\n\nhttps://github.com/mel-langhoff/battleship\nhttps://github.com/mel-langhoff/market_money\nhttps://github.com/mel-langhoff/resume\nhttps://www.mel-langhoff.com\n\nXcel
+        Energy | Remote, July 2022 - November 2022\n\nIT Project Manager\n\nIn my
+        role as an IT Project Manager at Xcel Energy, I developed and implemented
+        Agile project management systems. My work significantly improved project efficiency
+        and reduced delivery timelines.\n\nImplemented Agile project management systems
+        that reduced project lifecycles by 1-2 weeks. Enhanced delivery timelines
+        by 24%, which increased overall team productivity and project efficiency.\nCollaborated
+        closely with the director and a small team to streamline processes. Ensured
+        effective communication and coordination among team members, facilitating
+        smoother project execution.\nLed the introduction of new project management
+        tools and methodologies. Trained team members on these tools, ensuring successful
+        adoption and integration into existing workflows.\nMalhecho Art | Remote,
+        March 2022 - June 2023\n\nBusiness, Sales, Marketing, eCommerce\n\nManaged
+        business operations for J.Malhecho Art, focusing on website management, strategic
+        marketing, and Spanish translation. My role was key in enhancing the company''s
+        online presence and driving business growth through effective marketing strategies.\n\nEnhanced
+        the company''s online presence and market visibility through targeted marketing
+        campaigns and strategic networking. This led to increased customer engagement,
+        higher traffic to the website, and improved sales.\nUtilized my project management
+        and social media skills to drive business growth. Coordinated marketing efforts,
+        managed digital content, and implemented strategies that effectively promoted
+        the brand and its offerings.\nDeveloped and executed business strategies to
+        optimize performance. Analyzed data to inform decision-making, ensuring that
+        marketing and operational strategies were aligned with business goals.\nSling
+        TV | Denver, CO, February 2022 - May 2022\n\nProgram Manager\n\nAs a Program
+        Manager at Sling TV, I optimized project processes using Agile, Scrum, and
+        Kanban methodologies. My role involved improving productivity and project
+        outcomes for Dish Media and Sling TV.\n\nImplemented Agile, Scrum, and Kanban
+        methodologies to optimize project processes. Achieved a 20% increase in productivity
+        and significantly improved project outcomes through effective strategy implementation.\nLed
+        teams of 10-15 members to execute project strategies aligned with organizational
+        goals. Ensured that team efforts were coordinated and focused on achieving
+        project objectives.\nFacilitated cross-functional collaboration to enhance
+        communication and cooperation between departments. This approach improved
+        overall project effectiveness and team dynamics.\nSelf-employed | Remote,
+        August 2020 - October 2023\n\nPrivate Tutor\n\nAs a self-employed private
+        tutor, I provided personalized instruction to students aged 4-18. My focus
+        was on adapting teaching methods to meet individual learning styles and academic
+        goals, ensuring effective and engaging learning experiences.\n\nDelivered
+        personalized instruction for students aged 4-18, tailoring lessons to their
+        unique learning styles and academic goals. This approach ensured that each
+        student received targeted support, promoting their academic growth and confidence.\nCreated
+        engaging learning environments through both individual and group sessions.
+        Utilized creative teaching methods and interactive activities to maintain
+        student interest and foster a positive learning atmosphere.\nLeveraged my
+        skills in Spanish and various teaching methodologies to enhance educational
+        outcomes. Provided bilingual support and culturally relevant materials, enriching
+        the learning experience for students from diverse backgrounds.\nCrocs | Niwot,
+        CO, September 2019 - April 2020\n\nSAP Project Manager\n\nManaged the migration
+        of SAP environments to SAP HANA Enterprise Cloud for Crocs. Ensured smooth
+        transitions and effective project management for a successful cloud migration.\n\nCoordinated
+        testing schedules and cutover plans to ensure on-time project delivery. Managed
+        potential risks and minimized disruptions during the migration process.\nLed
+        a 45-member team and coordinated with third-party vendors for seamless cloud
+        migration. Maintained effective communication and collaboration to achieve
+        project goals.\nDeveloped detailed project plans and monitored progress. Addressed
+        issues promptly to keep the project on track and within the defined scope
+        and timeline.\nSovos | Atlanta, GA, April 2017 - January 2019\n\nProject Manager,
+        Implementation Consultant, \u0026 Junior FI Consultant\n\nIntegrated SaaS
+        SAP ERP solutions for Fortune 500 companies, focusing on eInvoicing, eAccounting,
+        and tax compliance. My role involved managing multiple projects and ensuring
+        successful client engagements.\n\nDeveloped bilingual training materials and
+        led training sessions, boosting client satisfaction ratings by 17%. Enhanced
+        client understanding of SAP solutions through effective knowledge transfer.\nManaged
+        up to 25 projects simultaneously, overseeing teams of 5-12 members. Ensured
+        that projects were delivered on time and met client requirements.\nCollaborated
+        closely with clients to understand their needs and deliver customized solutions.
+        Enhanced overall project success by tailoring solutions to client specifications.\nUniversity
+        of Wisconsin-Madison DesignLab | Madison, WI, August 2015 - May 2016\n\nAssistant
+        Coordinator\n\nSupported coordination of design lab activities and student
+        projects at the University of Wisconsin-Madison DesignLab. Facilitated workshops
+        and events to enhance the learning experience.\n\nAssisted in organizing and
+        executing workshops and events, which contributed to a more engaging learning
+        environment for students. Coordinated logistics and provided support to ensure
+        successful events.\nProvided administrative support, managing communication
+        with stakeholders and ensuring smooth operations. Handled scheduling, coordination,
+        and follow-up tasks to support lab activities.\nCollaborated with team members
+        to develop and implement new initiatives. Contributed to continuous improvement
+        efforts and supported the lab''s mission of fostering innovation and creativity.\nBrittania
+        School of English | Barcelona Area, Spain, November 2014 - November 2015\n\nEnglish
+        Teacher\n\nTaught English to non-native speakers at Brittania School of English
+        in Barcelona. Focused on language acquisition and communication skills, fostering
+        a dynamic and immersive learning environment.\n\nDeveloped and implemented
+        customized lesson plans tailored to student needs. Enhanced students'' language
+        skills and confidence through engaging and effective teaching methods.\nFacilitated
+        cultural exchange and language immersion experiences, enriching students''
+        understanding of English and diverse cultural contexts. Encouraged active
+        participation and interactive learning.\nAssessed student progress and provided
+        constructive feedback to support their continuous improvement. Monitored academic
+        development and adjusted teaching strategies to meet evolving needs.\nUW-Madison
+        Helen C White College Library | Madison, WI, March 2011 - December 2016\n\nSupervisor\n\nSupervised
+        operations and staff at the UW-Madison Helen C White College Library, ensuring
+        efficient service delivery and high levels of customer satisfaction.\n\nLed
+        team training and development initiatives, focusing on improving service quality
+        and staff performance. Implemented new training programs to enhance staff
+        skills and efficiency.\nManaged daily library operations, including scheduling
+        and customer service. Ensured that library services ran smoothly and met the
+        needs of students and faculty.\nImplemented new policies and procedures to
+        improve operational efficiency. Developed strategies to enhance the overall
+        user experience and streamline library processes.\n\n\n\n\n\n\n\n"}],"temperature":0.5}'
+    headers:
+      Authorization:
+      - Bearer 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
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v2.13.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 18 Jun 2025 16:08:25 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Expose-Headers:
+      - X-Request-ID
+      Openai-Organization:
+      - mel-langhoff
+      Openai-Processing-Ms:
+      - '23664'
+      Openai-Version:
+      - '2020-10-01'
+      X-Envoy-Upstream-Service-Time:
+      - '23667'
+      X-Ratelimit-Limit-Requests:
+      - '10000'
+      X-Ratelimit-Limit-Tokens:
+      - '200000'
+      X-Ratelimit-Remaining-Requests:
+      - '9998'
+      X-Ratelimit-Remaining-Tokens:
+      - '195400'
+      X-Ratelimit-Reset-Requests:
+      - 16.766s
+      X-Ratelimit-Reset-Tokens:
+      - 1.38s
+      X-Request-Id:
+      - req_d9bd5aad19e548ca4749d1c63b9289dd
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      Cf-Cache-Status:
+      - DYNAMIC
+      Set-Cookie:
+      - __cf_bm=LlDc8dP70D7mFtQWcaK5NJiL_855twTa0NcOihYpwjI-1750262905-1.0.1.1-xfEJEQWmx9_hROjI5PTUg0bUkOPozE8D4t84OSdD8wZ_5_1CJi3ZEtsdI3XT4Np9xOTnBYUNwaMExs2DJP1Yqi0jSRsnblSgixDsvGqjpOU;
+        path=/; expires=Wed, 18-Jun-25 16:38:25 GMT; domain=.api.openai.com; HttpOnly;
+        Secure; SameSite=None
+      - _cfuvid=RXyI9kCBDnxqXQxttxeRiDFks7qmqwsUydkttVbPL6w-1750262905088-0.0.1.1-604800000;
+        path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None
+      X-Content-Type-Options:
+      - nosniff
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 951c0affe843e672-DEN
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+          "id": "chatcmpl-BjpcPQb0VglbMAZvcXJSStPH3j5Sk",
+          "object": "chat.completion",
+          "created": 1750262881,
+          "model": "gpt-3.5-turbo-0125",
+          "choices": [
+            {
+              "index": 0,
+              "message": {
+                "role": "assistant",
+                "content": "```json\n{\n  \"experiences\": [\n    {\n      \"title\": \"IT Project Manager\",\n      \"company\": \"Xcel Energy\",\n      \"location\": \"Remote\",\n      \"start_date\": \"Jul 2022\",\n      \"end_date\": \"Nov 2022\",\n      \"responsibilities\": [\n        \"Developed and implemented Agile project management systems, reducing project lifecycles by 1-2 weeks\",\n        \"Improved delivery timelines by 24%, increasing overall team productivity\",\n        \"Collaborated with leadership to streamline processes and communication\",\n        \"Led training and adoption of new project management tools\"\n      ]\n    },\n    {\n      \"title\": \"Business, Sales, Marketing, eCommerce\",\n      \"company\": \"Malhecho Art\",\n      \"location\": \"Remote\",\n      \"start_date\": \"Mar 2022\",\n      \"end_date\": \"Jun 2023\",\n      \"responsibilities\": [\n        \"Managed website, marketing campaigns, and Spanish translation\",\n        \"Enhanced online presence and increased customer engagement\",\n        \"Coordinated marketing efforts and developed business strategies based on data\"\n      ]\n    },\n    {\n      \"title\": \"Program Manager\",\n      \"company\": \"Sling TV\",\n      \"location\": \"Denver, CO\",\n      \"start_date\": \"Feb 2022\",\n      \"end_date\": \"May 2022\",\n      \"responsibilities\": [\n        \"Optimized project workflows using Agile, Scrum, and Kanban methodologies\",\n        \"Achieved 20% productivity increase\",\n        \"Led teams of 10-15, facilitating cross-department collaboration\"\n      ]\n    },\n    {\n      \"title\": \"Private Tutor\",\n      \"company\": \"Self-employed\",\n      \"location\": \"Remote\",\n      \"start_date\": \"Aug 2020\",\n      \"end_date\": \"Oct 2023\",\n      \"responsibilities\": [\n        \"Delivered personalized instruction for ages 4-18, tailoring lessons to learning styles\",\n        \"Created engaging environments through individual and group sessions\",\n        \"Leveraged Spanish and teaching methodologies for bilingual education\"\n      ]\n    },\n    {\n      \"title\": \"SAP Project Manager\",\n      \"company\": \"Crocs\",\n      \"location\": \"Niwot, CO\",\n      \"start_date\": \"Sep 2019\",\n      \"end_date\": \"Apr 2020\",\n      \"responsibilities\": [\n        \"Managed migration of SAP environments to SAP HANA Enterprise Cloud\",\n        \"Coordinated testing schedules, cutover plans, and risk management\",\n        \"Led 45-member team and third-party vendors to ensure smooth transition\"\n      ]\n    },\n    {\n      \"title\": \"Project Manager, Implementation Consultant, Junior FI Consultant\",\n      \"company\": \"Sovos\",\n      \"location\": \"Atlanta, GA\",\n      \"start_date\": \"Apr 2017\",\n      \"end_date\": \"Jan 2019\",\n      \"responsibilities\": [\n        \"Managed SaaS SAP ERP projects for Fortune 500 clients\",\n        \"Developed bilingual training materials, increasing client satisfaction by 17%\",\n        \"Oversaw up to 25 projects and teams of 5-12\",\n        \"Delivered customized solutions enhancing project success\"\n      ]\n    },\n    {\n      \"title\": \"Assistant Coordinator\",\n      \"company\": \"University of Wisconsin-Madison DesignLab\",\n      \"location\": \"Madison, WI\",\n      \"start_date\": \"Aug 2015\",\n      \"end_date\": \"May 2016\",\n      \"responsibilities\": [\n        \"Coordinated design lab activities, workshops, and events\",\n        \"Provided administrative support and logistics management\"\n      ]\n    },\n    {\n      \"title\": \"English Teacher\",\n      \"company\": \"Brittania School of English\",\n      \"location\": \"Barcelona Area, Spain\",\n      \"start_date\": \"Nov 2014\",\n      \"end_date\": \"Nov 2015\",\n      \"responsibilities\": [\n        \"Developed and delivered customized English lessons to non-native speakers\",\n        \"Facilitated cultural exchange and immersive language learning\",\n        \"Assessed student progress and adapted instruction accordingly\"\n      ]\n    },\n    {\n      \"title\": \"Supervisor\",\n      \"company\": \"UW-Madison Helen C White College Library\",\n      \"location\": \"Madison, WI\",\n      \"start_date\": \"Mar 2011\",\n      \"end_date\": \"Dec 2016\",\n      \"responsibilities\": [\n        \"Supervised library operations and staff\",\n        \"Led training and development programs\",\n        \"Improved service quality and operational efficiency\"\n      ]\n    }\n  ],\n  \"skills\": [\n    \"Ruby\",\n    \"Ruby on Rails\",\n    \"ActiveRecord\",\n    \"RSpec\",\n    \"Test-Driven Development\",\n    \"SQL\",\n    \"HTML\",\n    \"Cascading Style Sheets (CSS)\",\n    \"JavaScript (basic familiarity)\",\n    \"Git\",\n    \"Salesforce.com\",\n    \"ServiceNow\",\n    \"JIRA\",\n    \"Confluence\",\n    \"Smartsheet\",\n    \"Microsoft Office (Word, Excel, PowerPoint)\",\n    \"Google Docs\",\n    \"iMovie\",\n    \"Spanish (fluent)\",\n    \"Project Management\",\n    \"Agile Project Management\",\n    \"Scrum\",\n    \"Kanban\",\n    \"Waterfall Project Management\",\n    \"Software Development Life Cycle (SDLC)\",\n    \"Object-Oriented Programming (OOP)\",\n    \"Vendor Management\",\n    \"SAP FI\",\n    \"XML Schema Definition (XSD)\",\n    \"SaaS Development\",\n    \"Change Management\",\n    \"Stakeholder Management\",\n    \"User Stories\",\n    \"Business Process Improvement\",\n    \"Leadership\",\n    \"Communication\",\n    \"Teamwork\",\n    \"Public Speaking\",\n    \"Employee Training\",\n    \"Training\",\n    \"Teaching\",\n    \"Research\",\n    \"Customer Service\",\n    \"Social Media\"\n  ],\n  \"experience_skills\": [\n    {\n      \"title\": \"IT Project Manager\",\n      \"skills\": [\"Agile Project Management\", \"Project Management\", \"Communication\", \"Leadership\"]\n    },\n    {\n      \"title\": \"Business, Sales, Marketing, eCommerce\",\n      \"skills\": [\"Marketing Strategy\", \"Data Analysis\", \"Business Development\", \"Spanish\"]\n    },\n    {\n      \"title\": \"Program Manager\",\n      \"skills\": [\"Agile\", \"Scrum\", \"Kanban\", \"Team Leadership\"]\n    },\n    {\n      \"title\": \"Private Tutor\",\n      \"skills\": [\"Teaching\", \"Bilingual Education\", \"Individualized Instruction\", \"Spanish\"]\n    },\n    {\n      \"title\": \"SAP Project Manager\",\n      \"skills\": [\"SAP\", \"Project Management\", \"Risk Management\", \"Team Leadership\"]\n    },\n    {\n      \"title\": \"Project Manager, Implementation Consultant, Junior FI Consultant\",\n      \"skills\": [\"SaaS\", \"ERP\", \"Client Satisfaction\", \"Customized Solutions\"]\n    },\n    {\n      \"title\": \"Assistant Coordinator\",\n      \"skills\": [\"Event Coordination\", \"Administrative Support\", \"Logistics Management\"]\n    },\n    {\n      \"title\": \"English Teacher\",\n      \"skills\": [\"Language Instruction\", \"Cultural Exchange\", \"Student Assessment\"]\n    },\n    {\n      \"title\": \"Supervisor\",\n      \"skills\": [\"Staff Supervision\", \"Training Programs\", \"Operational Efficiency\"]\n    }\n  ],\n  \"projects\": [\n    {\n      \"name\": \"Battleship\",\n      \"description\": \"Terminal-based Ruby implementation of the classic Battleship game\",\n      \"features\": \"User-friendly ship placement, turn-taking guessing, game logic handling\",\n      \"tech_used\": \"Ruby\",\n      \"github_link\": \"https://github.com/mel-langhoff/battleship\"\n    },\n    {\n      \"name\": \"Market Money\",\n      \"description\": \"API for accessing local farmers' markets and vendors\",\n      \"features\": \"Integrates market data including vendors, products, and pricing\",\n      \"tech_used\": \"Ruby on Rails, Postman\",\n      \"github_link\": \"https://github.com/mel-langhoff/market_money\"\n    },\n    {\n      \"name\": \"Personal Portfolio & Website\",\n      \"description\": \"Backend Developer portfolio showcasing skills and projects\",\n      \"features\": \"Built with Ruby on Rails and Bootstrap, Custom domain: mel-langhoff.com\",\n      \"tech_used\": \"Ruby on Rails, Bootstrap\",\n      \"github_link\": \"https://github.com/mel-langhoff/resume\",\n      \"demo_link\": \"https://www.mel-langhoff.com\"\n    }\n  ],\n  \"project_skills\": [\n    {\n      \"name\": \"Battleship\",\n      \"skills\": [\"Ruby\"]\n    },\n    {\n      \"name\": \"Market Money\",\n      \"skills\": [\"Ruby on Rails\", \"API Development\", \"Data Integration\"]\n    },\n    {\n      \"name\": \"Personal Portfolio & Website\",\n      \"skills\": [\"Ruby on Rails\", \"Bootstrap\", \"Web Development\"]\n    }\n  ]\n}\n```",
+                "refusal": null,
+                "annotations": []
+              },
+              "logprobs": null,
+              "finish_reason": "stop"
+            }
+          ],
+          "usage": {
+            "prompt_tokens": 3546,
+            "completion_tokens": 1864,
+            "total_tokens": 5410,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "service_tier": "default",
+          "system_fingerprint": null
+        }
+  recorded_at: Wed, 18 Jun 2025 16:08:24 GMT
+recorded_with: VCR 6.3.1

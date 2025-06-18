@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Skill" do
+RSpec.describe "SkillEntry" do
   it "exists" do
     attributes = { name: "Blah" }
     skill = Skill.new(attributes)
