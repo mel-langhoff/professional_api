@@ -1,7 +1,18 @@
 # Load resume text and parse it
+puts "🌱 Running seeds..."
+
 resume_path = Rails.root.join('lib', 'assets', 'texts', 'resume.txt')
+puts "Resume path: #{resume_path}"
+puts "File exists? #{File.exist?(resume_path)}"
+
 resume_text = File.read(resume_path)
+puts "Resume text loaded: #{resume_text[0..100]}..."  # show preview
+
 parsed_text = ResumeParserService.new(resume_text).call
+puts "Parsed text keys: #{parsed_text.keys}"
+# resume_path = Rails.root.join('lib', 'assets', 'texts', 'resume.txt')
+# resume_text = File.read(resume_path)
+# parsed_text = ResumeParserService.new(resume_text).call
 
 # Seed Experiences
 puts "Seeding experiences..."
@@ -41,13 +52,21 @@ end
 puts "Seeding experience skills..."
 
 parsed_text["experience_skills"].each do |exp_skill|
-  experience = Experience.find_by(title: exp_skill["experience_title"])
-  next unless experience
-  exp_skill["skills"].each do |skill_name|
-    skill = Skill.find_or_create_by!(name: skill_name)
-    experience.skills << skill unless experience.skills.include?(skill)
+  if exp_skill.is_a?(Hash)
+    experience = Experience.find_by("LOWER(title) = ?", exp_skill["experience_title"].downcase)
+    next unless experience
+
+    exp_skill["skills"].each do |skill_name|
+      skill = Skill.find_or_create_by!(name: skill_name)
+      experience.skills << skill unless experience.skills.include?(skill)
+    end
+  else
+    puts "⚠️ Skipping invalid experience_skill: #{exp_skill.inspect}"
   end
 end
+
+
+
 
 # Link skills to projects
 puts "Seeding project skills..."

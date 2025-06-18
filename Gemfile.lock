@@ -339,7 +339,7 @@ DEPENDENCIES
   rspec-rails
   shoulda-matchers
   simplecov
-  sqlite3
+  sqlite3 (~> 1.4)
   tzinfo-data
   vcr
   webmock
