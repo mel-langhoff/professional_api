@@ -1,8 +1,11 @@
+# Load resume text and parse it
 resume_path = Rails.root.join('lib', 'assets', 'texts', 'resume.txt')
 resume_text = File.read(resume_path)
 parsed_text = ResumeParserService.new(resume_text).call
 
-# Experiences
+# Seed Experiences
+puts "Seeding experiences..."
+
 parsed_text["experiences"].each do |exp|
   Experience.create!(
     title: exp["title"],
@@ -14,25 +17,28 @@ parsed_text["experiences"].each do |exp|
   )
 end
 
-# Skills
+# Seed Skills
+puts "Seeding skills..."
+
 parsed_text["skills"].each do |skill_name|
   Skill.find_or_create_by!(name: skill_name)
 end
 
-# Projects
+# Seed Projects
+puts "Seeding projects..."
+
 parsed_text["projects"].each do |proj|
   Project.create!(
-    name: proj["name"],
+    name: proj["title"],
     description: proj["description"],
-    technologies: proj["technologies"],
-    github_url: proj["github_url"],
-    demo_url: proj["demo_url"],
-    # optionally handle start_date, end_date if present
+    technologies: proj["tech"],
+    github_url: proj["git_repo"],
+    demo_url: proj["demo_link"]
   )
 end
 
-# Optional: Link skills to experiences and projects if you have join models
-# For example:
+# Link skills to experiences
+puts "Seeding experience skills..."
 
 parsed_text["experience_skills"].each do |exp_skill|
   experience = Experience.find_by(title: exp_skill["experience_title"])
@@ -43,8 +49,11 @@ parsed_text["experience_skills"].each do |exp_skill|
   end
 end
 
+# Link skills to projects
+puts "Seeding project skills..."
+
 parsed_text["project_skills"].each do |proj_skill|
-  project = Project.find_by(name: proj_skill["project_name"])
+  project = Project.find_by(name: proj_skill["project_title"])
   next unless project
   proj_skill["skills"].each do |skill_name|
     skill = Skill.find_or_create_by!(name: skill_name)
@@ -52,36 +61,4 @@ parsed_text["project_skills"].each do |proj_skill|
   end
 end
 
-
-# portfolio_text = File.read(Rails.root.join('lib/assets/texts/resume.txt'))
-# parsed_text = ResumeParserService.new(portfolio_text).call
-
-# # Create Experiences
-# parsed_text["experiences"].each do |exp|
-#   Experience.create!(
-#     title: exp["title"],
-#     company: exp["company"],
-#     location: exp["location"],
-#     description: exp["description"],
-#     start_date: exp["start_date"],
-#     end_date: exp["end_date"]
-#   )
-# end
-
-# # Create Projects
-# parsed_text["projects"].each do |proj|
-#   Project.create!(
-#     name: proj["name"],
-#     description: proj["description"],
-#     technologies: proj["technologies"],
-#     github_url: proj["github_url"],
-#     demo_url: proj["demo_url"]
-#   )
-# end
-
-# # Create Skills
-# parsed_text["skills"].each do |skill|
-#   Skill.create!(
-#     name: skill["name"]
-#   )
-# end
+puts "Seeding complete!"

@@ -1,4 +1,4 @@
-class Project
+class ExperienceEntry
   attr_reader :title, :company, :location, :description, :demo_url
 
   def initialize(json)
