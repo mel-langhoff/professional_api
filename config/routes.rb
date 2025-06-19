@@ -9,9 +9,7 @@ namespace :api do
     get '/experiences/:id', to: 'experiences#show'
     
     get '/projects',        to: 'projects#index'
-    get '/projects/:id',    to: 'projects#show'
-    
-    get '/personal_details', to: 'personal_details#index'
+    get '/projects/:id',    to: 'projects#show'    
   end
 end
 

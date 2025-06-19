@@ -41,7 +41,7 @@ end
 puts "Seeding experience skills..."
 
 parsed_text["experience_skills"].each do |exp_skill|
-  experience = Experience.find_by(title: exp_skill["experience_title"])
+  experience = Experience.find_by(title: exp_skill["title"])
   next unless experience
   exp_skill["skills"].each do |skill_name|
     skill = Skill.find_or_create_by!(name: skill_name)
