@@ -19,7 +19,8 @@ class ResumeParserService
     system_message = "You're a parser that returns structured JSON for a Rails resume database."
 
     body = {
-      model: "gpt-3.5-turbo",
+      model: "gpt-4-turbo",
+      max_tokens: 150,
       messages: [
         { role: "system", content: system_message },
         { role: "user", content: prompt }

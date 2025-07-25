@@ -15,7 +15,7 @@ class ChatbotService
 
   def chat(message)
     body = {
-      model: "gpt-3.5-turbo",
+      model: "gpt-4-turbo",
       messages: [{ role: "user", content: message }],
       max_tokens: 150
     }.to_json
