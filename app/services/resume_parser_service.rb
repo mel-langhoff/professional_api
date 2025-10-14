@@ -16,7 +16,7 @@ class ResumeParserService
   end
 
   def call
-    system_message = "You're a parser that returns structured JSON for a Rails resume database."
+    system_message = "You're a resume parser that returns a highly structured JSON data file for a Rails resume database that is highly detailed and structured and copies the data exactly as it appears in the data set."
 
     body = {
       model: "gpt-3.5-turbo",
@@ -44,7 +44,7 @@ class ResumeParserService
   def prompt
     <<~PROMPT
       Parse the following resume text into JSON to populate these tables:
-        - experiences: as an array of hashes with all expected fields
+        - experiences: as an array of hashes with all years attended, degree or certificate name, description if provided, and location
         - skills: as a flat array of strings (skill names)
         - experience_skills: that link skills to experience titles
         - projects: with detailed info
