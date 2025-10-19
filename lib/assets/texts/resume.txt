@@ -130,6 +130,8 @@ Mar 2011 – Dec 2016
 **Tech:** Ruby on Rails, Bootstrap  
 [GitHub Repository](#) | [Demo Link](#)
 
+
+
 ---
 
 ## About Me
